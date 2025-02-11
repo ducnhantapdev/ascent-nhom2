@@ -2512,6 +2512,10 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:border:hover {
+  border-width: 1px;
+}
+
 .hover\:border-bgGreen:hover {
   --tw-border-opacity: 1;
   border-color: rgb(115 190 72 / var(--tw-border-opacity, 1));
@@ -2524,6 +2528,10 @@ body {
 
 .hover\:border-transparent:hover {
   border-color: transparent;
+}
+
+.hover\:border-destructive:hover {
+  border-color: #ED145B;;
 }
 
 .hover\:bg-bgGreen:hover {
@@ -2598,6 +2606,10 @@ body {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-destructive:hover {
+  color: #ED145B;;
 }
 
 .hover\:shadow:hover {
